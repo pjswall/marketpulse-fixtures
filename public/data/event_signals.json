@@ -1,0 +1,47 @@
+[
+  {
+    "event_id": "EVT-GEO-001",
+    "event": "shipping_route_disruption",
+    "affected_sectors": [
+      "Auto",
+      "Manufacturing",
+      "Retail"
+    ],
+    "impact_dimensions": [
+      "lead_time",
+      "working_capital",
+      "inventory_buffer",
+      "fx_exposure"
+    ],
+    "default_horizon": "90_days"
+  },
+  {
+    "event_id": "EVT-FEE-001",
+    "event": "passive_product_fee_compression",
+    "affected_sectors": [
+      "Asset Management",
+      "Wealth"
+    ],
+    "impact_dimensions": [
+      "aum_retention",
+      "product_margin",
+      "distribution_strategy"
+    ],
+    "default_horizon": "1_to_5_years"
+  },
+  {
+    "event_id": "EVT-AIOPS-001",
+    "event": "ai_operations_automation",
+    "affected_sectors": [
+      "BFSI",
+      "Insurance",
+      "Fintech"
+    ],
+    "impact_dimensions": [
+      "cost_to_income",
+      "control_risk",
+      "customer_experience"
+    ],
+    "default_horizon": "120_days"
+  }
+]

@@ -1,0 +1,39 @@
+
+:root {
+  --bg: #0f1115;
+  --panel: #171a21;
+  --panel2: #20242d;
+  --text: #e8eaed;
+  --muted: #9aa0a6;
+  --border: #2e3440;
+  --good: #2ea043;
+  --warn: #d29922;
+  --bad: #f85149;
+  --accent: #7aa2ff;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, Segoe UI, Roboto, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.shell { max-width: 1180px; margin: 0 auto; padding: 32px 22px 56px; }
+.topbar { display:flex; justify-content:space-between; align-items:center; gap: 16px; padding-bottom: 18px; border-bottom: 1px solid var(--border); }
+.brand { font-size: 22px; font-weight: 750; letter-spacing: .2px; }
+.badge { border: 1px solid var(--border); background: var(--panel2); color: var(--muted); border-radius: 999px; padding: 5px 10px; font-size: 12px; }
+.hero { padding: 42px 0 26px; }
+.hero h1 { font-size: 42px; line-height: 1.1; margin: 0 0 12px; max-width: 920px; }
+.hero p { color: var(--muted); max-width: 840px; font-size: 17px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; }
+.card { background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 18px; }
+.card h3 { margin-top: 0; }
+.meta { display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 22px 0; }
+.meta div { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+.meta span { display:block; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.signal { border-left: 4px solid var(--good); }
+.threat { border-left: 4px solid var(--bad); }
+.warning { border-left: 4px solid var(--warn); }
+.payload { background: #25161a; border: 1px solid #55262b; border-radius: 12px; padding: 14px; color: #ffd7d7; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+footer { color: var(--muted); border-top: 1px solid var(--border); margin-top: 34px; padding-top: 18px; font-size: 13px; }
+code { background: var(--panel2); padding: 2px 6px; border-radius: 6px; }
+.table { width: 100%; border-collapse: collapse; overflow: hidden; border-radius: 14px; }
+.table th, .table td { border-bottom: 1px solid var(--border); padding: 10px 12px; text-align: left; }
+.table th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }

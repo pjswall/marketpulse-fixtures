@@ -1,0 +1,57 @@
+[
+  {
+    "company": "BharatMobility Ltd.",
+    "sector": "Auto",
+    "signal_type": "supply_chain_risk",
+    "description": "Imported component lead times are rising due to route disruption.",
+    "business_impact": "working_capital_pressure",
+    "time_horizon": "90_days",
+    "suggested_action": "supplier_exposure_review",
+    "source_url": "/clean/bharatmobility-supply-chain.html",
+    "confidence_score": 0.78
+  },
+  {
+    "company": "BharatMobility Ltd.",
+    "sector": "Auto",
+    "signal_type": "fx_exposure",
+    "description": "Imported inputs create short-term FX sensitivity.",
+    "business_impact": "margin_pressure",
+    "time_horizon": "90_days",
+    "suggested_action": "treasury_hedge_review",
+    "source_url": "/clean/bharatmobility-fx-exposure.html",
+    "confidence_score": 0.74
+  },
+  {
+    "company": "BharatMobility Ltd.",
+    "sector": "Auto",
+    "signal_type": "demand_slowdown",
+    "description": "Dealer-level demand indicators show slower conversion in export-linked product lines.",
+    "business_impact": "revenue_visibility_risk",
+    "time_horizon": "180_days",
+    "suggested_action": "demand_sensitivity_review",
+    "source_url": "/clean/bharatmobility-demand-slowdown.html",
+    "confidence_score": 0.69
+  },
+  {
+    "company": "FinServe Bank",
+    "sector": "BFSI",
+    "signal_type": "ai_operations",
+    "description": "AI-supported operations triage is being piloted for service queues and exception handling.",
+    "business_impact": "cost_to_income_improvement",
+    "time_horizon": "120_days",
+    "suggested_action": "governed_ai_ops_pilot_review",
+    "source_url": "/clean/finserve-ai-operations.html",
+    "confidence_score": 0.76
+  },
+  {
+    "company": "NorthStar Asset Management",
+    "sector": "Asset Management",
+    "signal_type": "fee_compression",
+    "description": "Passive products face fee-compression pressure from low-cost scaled competitors.",
+    "business_impact": "long_term_margin_compression",
+    "time_horizon": "1_to_5_years",
+    "suggested_action": "expense_ratio_and_operating_cost_review",
+    "source_url": "/clean/northstar-margin-pressure.html",
+    "confidence_score": 0.81
+  }
+]
